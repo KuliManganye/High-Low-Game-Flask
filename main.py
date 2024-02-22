@@ -8,7 +8,7 @@ print(random_number)
 
 app = Flask(__name__)
 
-# These route will be the start of the web page. It will contain the initial question
+# This route will be the start of the web page. It will contain the initial question
 @app.route("/")
 def home():
     return "<h1>Guess a number between 0 and 9</h1>" \
